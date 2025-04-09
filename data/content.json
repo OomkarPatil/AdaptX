@@ -1,0 +1,107 @@
+{
+  "title": "Introduction to Web Development",
+  "description": "Learn the basics of HTML, CSS, and JavaScript for web development.",
+  "components": [
+    {
+      "type": "text",
+      "content": "<p>Welcome to the Introduction to Web Development course! This module will cover the fundamental concepts of building websites using HTML, CSS, and JavaScript.</p><p>HTML (HyperText Markup Language) is the standard markup language for documents designed to be displayed in a web browser. It defines the structure and content of web pages.</p><p>CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML. It controls the layout, colors, fonts, and other visual aspects.</p><p>JavaScript is a programming language that enables interactive web pages. It's an essential part of web applications, and it's used to create dynamic content.</p>"
+    },
+    {
+      "type": "image",
+      "src": "https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png",
+      "caption": "HTML5 Logo: The foundation of modern web development"
+    },
+    {
+      "type": "mcq",
+      "question": "Which language is used to define the structure of a web page?",
+      "options": ["HTML", "CSS", "JavaScript", "Python"],
+      "correctAnswer": 0,
+      "feedback": {
+        "correct": "That's right! HTML (HyperText Markup Language) is used to define the structure and content of web pages.",
+        "incorrect": "That's not correct. HTML (HyperText Markup Language) is the language used to define the structure of web pages."
+      }
+    },
+    {
+      "type": "text",
+      "content": "<p>Let's dive deeper into CSS (Cascading Style Sheets).</p><p>CSS is what makes web pages look good. It allows you to control the layout, colors, fonts, and spacing of your HTML elements. Without CSS, websites would be plain text and images with no styling.</p><p>There are three ways to include CSS in your HTML:</p><ul><li><strong>Inline CSS</strong>: Using the style attribute in HTML elements</li><li><strong>Internal CSS</strong>: Using the &lt;style&gt; tag in the &lt;head&gt; section</li><li><strong>External CSS</strong>: Using a separate .css file linked with the &lt;link&gt; tag</li></ul><p>External CSS is the most recommended approach for larger projects as it separates content from presentation.</p>"
+    },
+    {
+      "type": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+      "caption": "CSS3 Logo: The styling language that makes the web beautiful"
+    },
+    {
+      "type": "mcq",
+      "question": "Which CSS property is used to change the text color?",
+      "options": ["color", "text-color", "font-color", "text-style"],
+      "correctAnswer": 0,
+      "feedback": {
+        "correct": "Correct! The 'color' property is used to set the color of text in CSS.",
+        "incorrect": "Incorrect. The 'color' property is the correct way to set text color in CSS."
+      }
+    },
+    {
+      "type": "text",
+      "content": "<p>Now let's explore JavaScript, the programming language of the web.</p><p>JavaScript allows you to create dynamic and interactive web pages. It can update content, control multimedia, animate images, and pretty much everything else.</p><p>JavaScript is primarily used for:</p><ul><li>Responding to user actions (clicks, form submissions, etc.)</li><li>Updating the page content dynamically without reloading</li><li>Validating form data before submission</li><li>Creating interactive elements like sliders, modals, and dropdown menus</li><li>Communicating with servers to fetch or send data (AJAX)</li></ul><p>Modern JavaScript frameworks like React, Vue, and Angular have revolutionized web development by making it easier to build complex applications.</p>"
+    },
+    {
+      "type": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      "caption": "JavaScript Logo: The programming language that brings interactivity to the web"
+    },
+    {
+      "type": "mcq",
+      "question": "Which of the following is NOT a JavaScript framework/library?",
+      "options": ["React", "Angular", "Bootstrap", "Vue"],
+      "correctAnswer": 2,
+      "feedback": {
+        "correct": "Correct! Bootstrap is a CSS framework, not a JavaScript framework/library.",
+        "incorrect": "Incorrect. Bootstrap is a CSS framework, while React, Angular, and Vue are JavaScript frameworks/libraries."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": "What does the acronym 'DOM' stand for in web development?",
+      "options": [
+        "Document Object Model",
+        "Data Object Model",
+        "Document Oriented Markup",
+        "Digital Object Management"
+      ],
+      "correctAnswer": 0,
+      "feedback": {
+        "correct": "Correct! DOM stands for Document Object Model, which is a programming interface for web documents.",
+        "incorrect": "Incorrect. DOM stands for Document Object Model, which represents the page so programs can change the document structure, style, and content."
+      }
+    },
+    {
+      "type": "text",
+      "content": "<p>Let's talk about responsive web design.</p><p>Responsive web design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. It's essential in today's world where people access websites from devices with different screen sizes.</p><p>Key techniques in responsive design include:</p><ul><li><strong>Fluid grids</strong>: Using relative units like percentages instead of fixed units like pixels</li><li><strong>Flexible images</strong>: Making images scale with the container</li><li><strong>Media queries</strong>: Applying different styles based on device characteristics</li></ul><p>Frameworks like Bootstrap and Tailwind CSS provide built-in responsive design features that make it easier to create mobile-friendly websites.</p>"
+    },
+    {
+      "type": "image",
+      "src": "https://www.elegantthemes.com/blog/wp-content/uploads/2019/04/000-Responsive-Web-Design.png",
+      "caption": "Responsive Web Design: Creating websites that work well on all devices"
+    },
+    {
+      "type": "mcq",
+      "question": "Which CSS feature is most important for responsive web design?",
+      "options": ["Media Queries", "Animations", "Transitions", "Shadows"],
+      "correctAnswer": 0,
+      "feedback": {
+        "correct": "Correct! Media queries allow you to apply different styles based on device characteristics like screen width, making them essential for responsive design.",
+        "incorrect": "Incorrect. Media queries are the most important feature for responsive design as they allow styles to adapt to different screen sizes."
+      }
+    },
+    {
+      "type": "mcq",
+      "question": "Which HTML tag is used to create a hyperlink?",
+      "options": ["<a>", "<link>", "<href>", "<url>"],
+      "correctAnswer": 0,
+      "feedback": {
+        "correct": "Correct! The <a> (anchor) tag is used to create hyperlinks in HTML.",
+        "incorrect": "Incorrect. The <a> (anchor) tag is the correct way to create hyperlinks in HTML."
+      }
+    }
+  ]
+}
